@@ -1,74 +1,71 @@
-📊 Student Stress Analyzer
+# MindMetrics – AI-Powered Student Stress Prediction System
 
-A web app that predicts student stress levels based on their responses. Built with Python, Flask, and machine learning, this project helps students and educators monitor stress patterns easily.
+## 📌 Overview  
+MindMetrics is a Machine Learning powered web application designed to predict student stress levels based on lifestyle and academic inputs.  
+The system leverages a trained ML classification model integrated with a Flask web interface to provide real-time stress analysis.
 
-🚀 Features
+This application can assist students, educators, and researchers in understanding stress patterns efficiently.
 
-🧠 Stress Prediction – Predicts low, medium, or high stress levels.
+---
 
-📈 Insights – Provides guidance based on the predicted stress.
+## 🚀 Features  
 
-💻 Web Interface – User-friendly form for input.
+🧠 **Stress Prediction**  
+Predicts student stress levels (Low / Medium / High) using a trained ML model.
 
-⚡ Fast & Lightweight – Runs locally without heavy setup.
+📊 **Real-Time Analysis**  
+Instant predictions based on user-provided inputs.
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript
-Backend: Python, Flask
-Machine Learning: scikit-learn, Pickle (pre-trained model)
-Data Handling: pandas, numpy
+💻 **Interactive Web Interface**  
+Simple and user-friendly input form.
 
-📂 Project Structure
+⚡ **Fast & Lightweight**  
+Runs locally with minimal setup.
 
-Student_Stress_Analyzer/
-├── app.py                  # Flask backend server
-├── templates/
-│   └── index.html          # Main frontend HTML page
-├── static/
-│   ├── style.css           # Styling for the web app
-│   └── script.js           # Optional JS logic
-├── model/
-│   ├── stress_model.pkl    # Pre-trained ML model
-│   └── label_encoder.pkl   # Label encoder for stress levels
-└── README.md               # Project documentation
+---
 
-⚡ Getting Started
+## 🛠️ Tech Stack  
 
-Clone the repository:
-Bash
-git clone https://github.com/YourUsername/Student_Stress_Analyzer.git
+**Frontend**  
+- HTML5  
+- CSS3  
+- JavaScript  
 
-Navigate to the folder:
-Bash
-cd Student_Stress_Analyzer
+**Backend**  
+- Python  
+- Flask  
 
-Install required Python packages:
-Bash
-pip install flask scikit-learn pandas numpy
+**Machine Learning**  
+- Scikit-learn  
+- Pickle (Serialized Model)
 
-Run the app:
-Bash
-python app.py
+**Data Handling**  
+- Pandas  
+- NumPy
 
-Open in your browser:
+---
 
-http://127.0.0.1:5000
+## 📂 Project Structure  
 
-🎯 Future Enhancements
+MindMetrics/  
+├── app.py                 # Flask backend server  
+├── templates/  
+│   └── index.html         # Frontend UI  
+├── static/  
+│   ├── style.css          # Styling  
+│   └── script.js          # Optional JS logic  
+├── model/  
+│   ├── stress_model.pkl   # Trained ML model  
+│   └── label_encoder.pkl  # Label encoder  
+├── dataset/  
+│   └── stress_data.csv    # Dataset  
+└── README.md
 
-Add user login for personalized tracking.
-Visualize stress reports with graphs and charts.
-Add notifications and suggestions based on stress.
-Improve mobile-friendly UI.
+---
 
-🤝 Contributing
+## ⚡ Getting Started  
 
-Contributions are welcome!
-Fork the repo
-Create a branch (git checkout -b feature-name)
-Make your changes
-Submit a pull request
+### 1️⃣ Clone Repository  
 
-📜 License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
+```bash
+git clone https://github.com/yashx2802/MindMetrics.git
